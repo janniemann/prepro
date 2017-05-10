@@ -1,0 +1,13 @@
+entity {
+	id = 100,
+	name = "emp",
+	indexes = { "empno", "name" }
+}
+
+entity {
+	active = "N",
+	id = 110,
+	name = "dept",
+	indexes = { "deptno" }
+}
+

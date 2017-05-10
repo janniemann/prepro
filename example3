@@ -1,0 +1,14 @@
+#dofile ("functions3")
+
+begin
+
+#entity = entity_truncate
+#dofile ("entities3")
+
+end;
+/
+
+
+#entity = entity_count
+#dofile ("entities3")
+

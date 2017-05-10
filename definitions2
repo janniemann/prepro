@@ -1,0 +1,12 @@
+KV = {
+	key = "value",
+	another_key = "another_value"
+}
+
+for k,v in pairs(arg) do
+	if k>=0 then
+		KV[k] = v
+	end
+end
+
+KV.user = os.getenv("USER")

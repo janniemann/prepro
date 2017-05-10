@@ -1,0 +1,27 @@
+
+function fwrite(fmt, ...)
+  io.write(string.format(fmt, ...))
+end
+
+function entity_count(e)
+  fwrite([[
+select count(1) from %s;
+]], e.name);
+end
+
+
+function entity_truncate(e)
+
+  if (e.active) then
+    if (e.active == 'N') then
+      return;
+    end;
+  end;
+
+
+  fwrite([[
+	execute immediate 'truncate table %s';
+
+]], e.name);
+
+end

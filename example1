@@ -1,0 +1,5 @@
+# KV={key= "value", another_key="another_value"}
+# for k,v in pairs (KV) do
+KEY=$(k), VALUE=$(v)
+# end
+

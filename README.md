@@ -10,7 +10,7 @@ just try the examples:
 
     ./prepro example3
 
-just to show the power of lua.
+just to show the power of lua, example 3 combines the preprocessor with the data description example from pil, found here: https://www.lua.org/pil/10.1.html
 
 ## License
 

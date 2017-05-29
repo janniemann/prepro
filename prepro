@@ -5,6 +5,12 @@ a simple preprocessor.
 
 ]]
 
+function incl(file)
+   for line in io.lines(file) do
+      io.write(line .. "\n")
+   end
+end
+
 function prep(file)
    local chunk = { n = 0 }
    for line in io.lines(file) do

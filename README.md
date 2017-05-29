@@ -10,7 +10,10 @@ just try the examples:
 
     ./prepro example3
 
+    ./prepro example4
+
 just to show the power of lua, example 3 combines the preprocessor with the data description example from pil, found here: https://www.lua.org/pil/10.1.html
+example 4 shows how to include files or call the preprocessor from inside a file.
 
 ## License
 

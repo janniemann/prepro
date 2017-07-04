@@ -1,0 +1,4 @@
+~ dofile("definitions2")
+~ for k,v in pairs (KV) do
+KEY=$(k), VALUE=$(v)
+~ end

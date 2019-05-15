@@ -1,6 +1,7 @@
 # prepro
 
 small, lua-based preprocessor, found at http://lua-users.org/wiki/SimpleLuaPreprocessor, changed for lua 5.3
+Also contains a version for lua 5.1.
 
 just try the examples:
 
@@ -17,6 +18,13 @@ just try the examples:
 just to show the power of lua, example 3 combines the preprocessor with the data description example from pil, found here: https://www.lua.org/pil/10.1.html
 example 4 shows how to include files or call the preprocessor from inside a file.
 example 5 shows how to change the symbol introducing a line of code from the default "#" to "~", in order to preprocess markdown which uses "#" a lot.
+
+
+Can read scripts from stdin, if filename is -.
+
+    cat example1 | ./prepro -
+
+
 
 ## License
 
